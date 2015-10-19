@@ -1,9 +1,9 @@
 Readme
 ======
 
-** EECS 583 - Final Project **
+**EECS 583 - Final Project**
 
-** Authors: Will Sullivan**
+**Authors: Will Sullivan**
 
 Overview
 ---------
