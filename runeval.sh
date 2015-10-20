@@ -5,7 +5,6 @@
 
 #  User defined variables
 echo "--> Setting user defined variables"
-LLVM_BUILD_ROOT=/opt/llvm/
 OUTPUT_FILE=results
 PASS_PERMUTATIONS_FILE=pass_permutations
 
