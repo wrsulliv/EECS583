@@ -35,8 +35,9 @@ do
 	while read id pass_options
 	do
 		        
-		echo "--> Performing optimization ${id} with sequence: ${pass_options}"
-		opt ${pass_options} -disable-output ${ASM_DIR}/${SOURCE}.bc
+		echo "--> Performing optimization '${id}' with sequence: '${pass_options}'"
+		cmd_str="opt ${pass_options} -disable-output ${ASM_DIR}/${SOURCE}.bc"
+		eval $cmd_str
 
 		echo "--> Generating ${SOURCE}.exe"
 		llc < ${ASM_DIR}/${SOURCE}.bc > ${ASM_DIR}/${SOURCE}.s
