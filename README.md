@@ -43,8 +43,7 @@ Files
 -----
 
 ### ./runeval.sh
-	Purpose:  This script will read (./pass_permutations.csv) and run each pass permutation on each of the (.c) files located in the (./src) directory.  
-          	  For each of these permutations, the compiled inary is executed and the runtimes are stored in (./results.csv).
+Purpose:  This script will read (./pass_permutations.csv) and run each pass permutation on each of the (.c) files located in the (./src) directory.  For each of these permutations, the compiled inary is executed and the runtimes are stored in (./results.csv).
 
 ### ./results.csv
 	Columns:  [src_file, pass_id, runtime]
