@@ -3,7 +3,7 @@ Readme
 
 **EECS 583 - Final Project**
 
-**Authors: Will Sullivan**
+**Authors: Reed Coke, Aparna Garimella, Konstantinos Pappas, Will Sullivan**
 
 Overview
 ---------
